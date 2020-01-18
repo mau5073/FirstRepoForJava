@@ -1,11 +1,13 @@
 import java.util.Scanner;
 
-public class Main implements MultiplicationChartInterface {
-    private int num;
 
-    public Main(){
-        num = 0;
-    }
+
+
+
+public class Main{
+
+
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter an integer number (0 < n < 13):");
@@ -22,10 +24,5 @@ public class Main implements MultiplicationChartInterface {
     }
 
 
-    @Override
-    public void displayChart() {
-        for(int x = 0; x < num; x++) {
-            System.out.println(x);
-        }
 
 }
